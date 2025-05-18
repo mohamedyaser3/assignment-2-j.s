@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)), url(../img/15146574355vi4s03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+    overflow: auto;
+    position: relative;
+}
+
+div h1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Impact;
+}
+
+div h1::after {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    width: 20%;
+    height: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+div .tittle {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+div .qout {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+
+}
+
+div .btn {
+    font-size: 20px;
+    width: 250px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 400ms;
+}
+
+div .btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
